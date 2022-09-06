@@ -1,0 +1,2 @@
+#!/bin/bash
+xargs -d"|" < lacta | cut -d"|"-f3 head -3 file_name | tail -1
